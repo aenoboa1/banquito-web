@@ -1,0 +1,122 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.logo-topbar {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.cardStyle {
+    margin-left: 33rem;
+}
+
+.form-demo .card {
+    min-width: 450px;
+}
+
+.form-demo .card form {
+    margin-top: 2rem;
+}
+
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background: linear-gradient(rgba(250, 0, 0, 0.5), transparent);
+    background-color: brown /*this your primary color*/
+}
+
+
+.contex {
+    display: flex;
+    height: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.filterDate {
+    width: 45%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor {
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
